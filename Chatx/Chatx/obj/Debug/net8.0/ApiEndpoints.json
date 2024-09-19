@@ -1,5 +1,84 @@
 [
   {
+    "ContainingType": "Chatx.Controllers.HanghoaController",
+    "Method": "GetAll",
+    "RelativePath": "api/Hanghoa",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatx.Controllers.HanghoaController",
+    "Method": "Create",
+    "RelativePath": "api/Hanghoa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hanghoaVM",
+        "Type": "Chatx.Model.HanghoaVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatx.Controllers.HanghoaController",
+    "Method": "GetById",
+    "RelativePath": "api/Hanghoa/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatx.Controllers.HanghoaController",
+    "Method": "Edit",
+    "RelativePath": "api/Hanghoa/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "hangHoaEdit",
+        "Type": "Chatx.Model.HangHoa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatx.Controllers.HanghoaController",
+    "Method": "Remove",
+    "RelativePath": "api/Hanghoa/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Chatx.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
